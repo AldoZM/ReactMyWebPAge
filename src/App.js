@@ -9,7 +9,7 @@ function App(){
   return(
   
     <div className='app'>
-      <Tweet name = 'Aldo' mes = 'Hola'/>
+      <Tweet name = 'Yelly' mes = 'Hola'/>
       <Tweet name= 'Zetina' mes = 'Como'/>
       <Tweet name = 'Muciño' mes = 'Estas'/>
     </div>
