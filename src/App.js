@@ -10,9 +10,11 @@ function App(){
   
     <div className='app'>
       <Tweet name = 'Aldo' mes = 'Hola'/>
+      <Tweet name = 'Erick der Zetinator' mes = 'Hola'/>
       <Tweet name= 'Zetina' mes = 'Como'/>
       <Tweet name = 'Muciño' mes = 'Estas'/>
     </div>
+
   );
 }
 
