@@ -1,9 +1,9 @@
 .app{
-  min-height: 100vh;
-  background: rgb(15, 0, 97);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) auto;
+}
+.sectionY{
+  background: rgb(255, 241, 39)
 }
 
 .tweet{
@@ -16,4 +16,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.name{
+
+
 }

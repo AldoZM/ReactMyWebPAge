@@ -2,19 +2,20 @@ import React from 'react';
 import ButtonHello from './Button'
 import './App.css'
 import Tweet from './Tweet'
-function App(){
-  const sayHello = () =>{
+function App() {
+  const sayHello = () => {
     console.log("hello");
   };
-  return(
-  
-    <div className='app'>
-      <Tweet name = 'Aldo' mes = 'Hola'/>
-      <Tweet name = 'Erick der Zetinator' mes = 'Hola'/>
-      <Tweet name= 'Zetina' mes = 'Como'/>
-      <Tweet name = 'Muciño' mes = 'Estas'/>
-    </div>
+  return (
 
+    <div class = 'app'>
+      <div class = 'sectionY' contenteditable>
+        Min: 150 px / Max 25%
+      </div>
+      <div class = 'sectionP' contenteditable>
+        This element take the second grid position 
+      </div>
+    </div>
   );
 }
 

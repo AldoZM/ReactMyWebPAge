@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css'
-function Tweet(prop)
-{
+function Tweet(prop) {
     return (
 
         <div className='tweet'>
-            <h3>{prop.name}</h3>
+            <div className='name'>
+                <h3>{prop.name}</h3>
+            </div>
             <p>{prop.mes}</p>
-            <h3>Number of likes</h3>
+            <a href="https://www.twitch.tv/arudoz" target="_blank">Aqui puedes acceder a mi cuenta</a>
         </div>
     )
 
-    
+
 }
 export default Tweet;
